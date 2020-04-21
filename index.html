@@ -12,7 +12,9 @@
       <!-- <form onsubmit="myFunction()"> -->
       <form >
         <label for="input">Input</label>
-        <input type="text" id="inputName" value="" />
+        <!-- <input type="text" id="inputName" value="" /> -->
+        <input type="text" id="inputName" value="" oninput="myFunction()" />
+
         <button type="submit" value="submit" onclick="myFunction();return false" >
           Submit
         </button>
